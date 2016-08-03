@@ -9,7 +9,17 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "br.com.eywa.garconapp"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "PACKAGE_NAME": "br.com.eywa.garconapp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "br.com.eywa.garconapp"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "br.com.eywa.garconapp"
+        }
+    }
 }
